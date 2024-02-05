@@ -342,7 +342,7 @@ img.header__logo {
 
 .products__gr {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(4, 2fr);
     gap: 50px;
 }
 
@@ -596,7 +596,7 @@ img.header__logo {
     }
 
     .mobile__logo {
-        width: 25%;
+        width: 23%;
     }
 
     .mobile__logo--wd {
@@ -1195,6 +1195,10 @@ img.header__logo {
     .mobile__services--df{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .services__df {
+        padding: 20px 0;
     }
 }
 
