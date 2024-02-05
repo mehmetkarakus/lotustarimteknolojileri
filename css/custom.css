@@ -313,6 +313,7 @@ img.header__logo {
 .services__gr {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    gap: 50px;
 }
 
 .services__img--star-end {
@@ -995,6 +996,17 @@ img.header__logo {
         top: 75px !important;
     }
 
+    /*----------------------------------------------------services----------------------------------------------------*/
+
+    .pages__services--img {
+        width: 100%;
+    }
+
+    .services__img{
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 /*----------------------------------------------------Mobile(430px)----------------------------------------------------*/
@@ -1170,6 +1182,19 @@ img.header__logo {
 
     .esular__usage-areas--line h4:before {
         top: 115px !important;
+    }
+
+    /*----------------------------------------------------services----------------------------------------------------*/
+
+    .services__gr {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 50px;
+    }
+
+    .mobile__services--df{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
