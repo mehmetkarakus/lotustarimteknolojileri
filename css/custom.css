@@ -346,6 +346,13 @@ img.header__logo {
     gap: 50px;
 }
 
+.product-description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /*----------------------------------------------------Gallery----------------------------------------------------*/
 
 .gallery__df {
@@ -446,6 +453,14 @@ img.header__logo {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 50px;
+}
+
+.icon-box.fancy .icon i {
+    font-size: 70px;
+}
+
+.icon-box.medium>h3, .icon-box.medium>h4, .icon-box.medium>h5 {
+    margin: 35px 12px 10px 45px;
 }
 
 /*----------------------------------------------------agv-technic----------------------------------------------------*/
