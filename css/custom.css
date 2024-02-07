@@ -624,14 +624,16 @@ img.header__logo {
         padding: 10px 7px;
     }
 
-    .about__description--img {
-        width: 100%;
-        height: 305px;
-    }
 
     .about__img {
         display: flex;
         align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about__description--img {
+        width: 100%;
     }
 
     .main__products {
@@ -696,6 +698,17 @@ img.header__logo {
     .text-lg {
         font-size: 4rem;
         font-weight: 400;
+    }
+
+    /*----------------------------------------------------services----------------------------------------------------*/
+
+    .services__img {
+        display: flex;
+        align-items: center;
+    }
+
+    .pages__services--img {
+        width: 100%;
     }
 
     /*----------------------------------------------------product----------------------------------------------------*/
@@ -845,6 +858,9 @@ img.header__logo {
         padding: 10px 30px;
     }
 
+    .width__df {
+        margin-top: 30px;
+    }
 
     .inspiro-slider.slider-fullscreen {
         height: 50vh;
@@ -886,9 +902,14 @@ img.header__logo {
         gap: 0;
     }
 
+    .about__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .about__description--img {
-        width: 85%;
-        height: 305px;
+        width: 70%;
     }
 
     .about__img {
@@ -934,6 +955,23 @@ img.header__logo {
         height: 100px;
         display: flex;
         align-items: center;
+    }
+
+    /*----------------------------------------------------services----------------------------------------------------*/
+
+    .heading-text h4 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .heading-text.heading-section p {
+        font-size: 15px;
+        font-weight: normal !important;
+        margin-top: 15px;
+    }
+
+    section {
+        padding: 0px 0;
     }
 
     /*----------------------------------------------------gallery----------------------------------------------------*/
@@ -1028,7 +1066,7 @@ img.header__logo {
 
 /*----------------------------------------------------Mobile(430px)----------------------------------------------------*/
 
-@media (max-width: 430px) {
+@media (max-width: 440px) {
 
     .inspiro-slider .slide .slide-captions h1,
     .inspiro-slider .slide .slide-captions h2 {
@@ -1043,7 +1081,6 @@ img.header__logo {
 
     .about__description--img {
         width: 100%;
-        height: 160px;
     }
 
     .mobile__logo {
