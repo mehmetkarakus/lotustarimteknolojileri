@@ -63,6 +63,10 @@
     font-weight: 400 !important;
 }
 
+.header__menu--font {
+    color: #fff !important;
+}
+
 img.header__logo {
     width: 200px !important;
 }
@@ -71,11 +75,11 @@ img.header__logo {
     display: flex;
 }
 
-#header.dark .header-inner #logo a>img {
-    display: block;
+.logo__dark {
+    display: none;
 }
 
-#header .header-inner #logo a>img {
+.logo__white {
     display: block;
 }
 
