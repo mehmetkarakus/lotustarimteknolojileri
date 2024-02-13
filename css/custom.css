@@ -63,8 +63,26 @@
     font-weight: 400 !important;
 }
 
-.header__menu--font {
-    color: #fff !important;
+#mainMenu nav>ul>li>a, #mainMenu nav>ul>li>a {
+    color: #fff;
+}
+
+#mainMenu nav>ul>li>a {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #000000;
+    border-radius: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    line-height: normal;
 }
 
 img.header__logo {
