@@ -884,6 +884,18 @@ img.header__logo {
         width: 35% !important;
     }
 
+    .logo__white{
+        display: none;
+    }
+
+    .logo__dark{
+        display: block;
+    }
+
+    .header__menu--font {
+        color: #000 !important;
+    }
+
     .lines,
     .lines:before,
     .lines:after {
